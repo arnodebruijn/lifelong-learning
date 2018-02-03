@@ -1,6 +1,8 @@
 Push Pull Legs Program
 ======================
 
+Reddit original source: https://www.reddit.com/r/Fitness/comments/37ylk5/a_linear_progression_based_ppl_program_for/
+
 Nomenclature
 ------------
 * 3x10        three sets of ten repetitions
@@ -63,7 +65,7 @@ https://www.youtube.com/watch?v=3VcKaXpzqRo&index=6&list=PLCY9fepGCzaPDLw_Xwl-rQ
 https://www.youtube.com/watch?v=YbX7Wd8jQ-Q&index=5&list=PLCY9fepGCzaPDLw_Xwl-rQnVDEC46vovy
 https://www.youtube.com/watch?v=3VcKaXpzqRo&index=6&list=PLCY9fepGCzaPDLw_Xwl-rQnVDEC46vovy
 
-### Legs
+### Legs (and abs if wanted)
 
 1. 2x5, 1x5+ squat
 https://www.youtube.com/watch?v=Dy28eq2PjcM&list=PLCY9fepGCzaMi1JKCidAFpxmPG9BkvEmY&index=1
