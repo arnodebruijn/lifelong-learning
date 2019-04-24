@@ -2,43 +2,25 @@ Data Processing
 ===============
 
 
-Hadoop
-======
-The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage.
+Database types
+--------------
+- Relational:     store data with pre-defined schema and relationships between them.
+- Key-value:      optimized to quickly store and retrieve large volumes of key-value pairs.
+- Graph:          store highly connected graph datasets and query and navigate relationships.
+- Time series:    efficiently collect, synthesize and derive insights from enormous amounts of data that change over time.
+- Ledger:         public decentralized trusted authority
+- Document:       store semi structured data as documents
 
-Storage
-------
-HDFS (Hadoop Distributed File System)
-Hadoop splits files into large blocks and distributes them accross nodes in a cluster.
-
-Processing
-----------
-MapReduce
-Nodes manipulate the data they have access to (data locality) and as such process the data in parallel
-
-
-Apache Spark
-============
-Open source cluster computing framework. Provides an interface for programming entire clusters with implicit data parallelism and fault tolerance. Requires a cluster manager and a distributed file system.
-
-Cluster managers:
-* Native Spark cluster
-* Hadoop YARN
-* Apache Mesos
-
-Distributed file systems:
-* Hadoop Distributed File System
-* MapR File System
-* Cassandra - a scalable multi-master database with no single point of failure
-* Openstack Swift
-* Amazon S3
-* Kudu
-
-
-
-Concepts
-========
-
+Database examples
+-----------------
+- MySQL                 ORDBMS
+- PostgresSQL           ORDBMS
+- Redis                 Distributed, in-memory key-value database
+- Amazon DynamoDB       NoSQL, document-oriented key-value database
+- MongoDB               NoSQL, document-oriented database
+- Apache Cassandra      NoSQL, distributed, wide column store
+- Apache CouchDB        NoSQL, document-oriented database
+- Apache HBase          Non-relational distributed database
 ETL (Extract Transform Load)
 ---
 Database usage process. Commonly the three phases are executed in parallel.
@@ -113,4 +95,4 @@ Glossary
 ========
 * Block/physical record     a sequence of bytes usually containing some whole number of records.
 * Contention                multiple processes or instances competing for access to the same index or data block at the same time.
-
+* ACID                      Atomicity, Consistency, Isolation, Durability. A sequence of database operations that satisfy the ACID properties can be perceived as a single logical operation on the data (a transaction).

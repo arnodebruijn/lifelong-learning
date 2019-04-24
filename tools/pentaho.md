@@ -24,7 +24,7 @@ Spoon (PDI client)
 Spoon is the graphical transformation and job designer associated with the Pentaho Data Integration suite — also known as the Kettle project.
 * transformations - describe the data flows for ETL
 * jobs - coordinate ETL activities such as:
-  - defining the flow and dependendcies for what order transformations should be run
+  - defining the flow and dependencies for what order transformations should be run
   - preparing for execution by checking conditions
   - performing bulk load database operations
   - file management
@@ -38,7 +38,7 @@ Artifacts
 ---------
 .kjb    (kettle) job files
 .ktr    (kettle) transformation files
-.cda    paramaeter description files
+.cda    parameter description files
 
 
 Likes
@@ -63,3 +63,12 @@ Uncertain
 =========
 * What happens if some feature is not supported
 * limitations of the comunity edition
+
+
+Installation
+============
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt update
+sudo apt-get install oracle-java8-installer
+sudo apt-get install oracle-java8-set-default
+sudo apt-get install libwebkitgtk-1.0-0

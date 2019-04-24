@@ -59,3 +59,6 @@ q           stop recording
 [visual selection]
 A;          manipulation on one line
 :'<,'>n .   repeat manipulation on visual selection
+
+
+:lcd %:p:h  set working directory to the directory of the currently open file

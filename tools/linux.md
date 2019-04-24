@@ -56,8 +56,12 @@ Systemd journal. Collects, stores, indexes and compresses messages. Provides a c
 
 logrotate to manage and rotate logs.
 
-
 Monitoring
 ----------
 Nagios
 - server and network monitoring
+
+
+Supervisor
+----------
+A process control system. Supervisor is a client/server system that allows its users to monitor and control a number of processes on UNIX-like operating systems.
